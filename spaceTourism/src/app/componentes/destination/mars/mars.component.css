@@ -1,0 +1,84 @@
+.title-destination{
+  color: #FFFFFF;
+  font-size: 28px;
+  letter-spacing: 4.72 px;
+  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 34px;
+}
+
+.number-destination{
+  font-size: 28px;
+  letter-spacing: 4.72 px;
+  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 34px;
+  font-weight: 700;
+  padding-left: 10%;
+  padding-right: 1%;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+.menu-destination{
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 7%;
+  padding-bottom: 10px;
+}
+
+.button-destination{
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  background-repeat:no-repeat;
+  color: #FFFFFF;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  margin-right: 30px;
+}
+
+.moon-descripton{
+  margin-top: 7%;
+  padding-left: 16%;
+}
+
+.moon-descripton h1{
+  font-family: 'Bellefair', serif;
+  font-size: 100px;
+  line-height: 115px;
+  color: #FFFFFF;
+}
+
+.moon-descripton h3{
+  font-family: 'Barlow', sans-serif;
+  color: #D0D6F9;
+  font-size: 18px;
+  line-height: 32px;
+  width: 82%;
+}
+
+.linha{
+  background: #383B4B;
+  width: 444px;
+  height: 1px;
+  margin-top: 3%;
+}
+
+.informations-description h4{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  color: #D0D6F9;
+  text-transform: uppercase;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+}
+
+.informations{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: 'Bellefair', serif;
+}

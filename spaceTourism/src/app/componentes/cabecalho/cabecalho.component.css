@@ -19,8 +19,8 @@
 .menu{
   background-image: url(../../../assets/shared/fundo-menu.png);
   position: absolute;
-  width: 55%;
-  max-width: 55%;
+  width: 80%;
+  max-width: 61%;
   height: 70px;
   left: 610px;
   top: 30px;
@@ -35,12 +35,16 @@
 }
 
 .link-menu{
-  color: #FFFFFF;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 2.7px;
   height: 19px;
-  text-decoration: none;
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  background-repeat:no-repeat;
+  color: #FFFFFF;
 }

@@ -1,0 +1,54 @@
+.body-home{
+  color: #FFFFFF;
+  margin-top: 15%;
+}
+
+.text-home{
+  margin-right: 41%;
+}
+
+
+h5{
+  font-size: 28px;
+  color: #D0D6F9;
+  letter-spacing: 4.72 px;
+  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 33.6px;
+}
+
+h1{
+  font-size: 150px;
+  font-family: 'Bellefair', serif;
+  line-height: 172px;
+}
+
+h6{
+  font-size: 18px;
+  color: #D0D6F9;
+  font-family: 'Barlow', sans-serif;
+  line-height: 32px;
+}
+
+.img-explore{
+  display: inline-block;
+  position: relative;
+}
+
+.img-explore label{
+  position: absolute;
+  top: 45%;
+  left: 23%;
+  color: #0B0D17;
+  font-family: 'Bellefair', serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 37px;
+}
+
+.button-explore{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  background-repeat:no-repeat;
+}
