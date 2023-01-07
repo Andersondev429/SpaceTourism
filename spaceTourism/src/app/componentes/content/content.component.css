@@ -54,3 +54,78 @@ h6{
   overflow: hidden;
   background-repeat:no-repeat;
 }
+
+
+@media (min-width: 2559px){
+  .text-home{
+    margin-right: 18%;
+  }
+
+  h5{
+    font-size: 48px;
+    line-height: 33.6px;
+  }
+
+  h1{
+    font-size: 190px;
+    font-family: 'Bellefair', serif;
+    line-height: 172px;
+  }
+
+  h6{
+    font-size: 28px;
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    line-height: 32px;
+  }
+
+  .img-explore label{
+    left: 13%;
+    font-size: 39px;
+    align-self:flex-end;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+  .text-home{
+    margin-right: 31%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .text-home{
+    margin-right: 15%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .text-home{
+    margin-right: 0%;
+  }
+
+  .content-secundary{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .img-explore label{
+    left: 40%;
+  }
+}
+
+@media (min-width: 706px) and (max-width: 767px){
+  .text-home{
+    margin-right: 0%;
+  }
+
+  .content-secundary{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .img-explore label{
+    left: 36%;
+  }
+}
