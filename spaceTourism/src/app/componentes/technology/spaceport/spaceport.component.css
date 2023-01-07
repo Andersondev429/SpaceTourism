@@ -35,6 +35,22 @@
   margin-top: 25%;
 }
 
+.bola-selecionada {
+  font-family: 'Bellefair', serif;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 65px;
+  width: 65px;
+  border: 1px solid #ffffff;
+  mix-blend-mode: normal;
+  margin-bottom: 18%;
+  color: #0B0D17;
+  font-size: 28px;
+  margin-top: 25%;
+}
+
 .spaceport-descripton h5{
   font-family: 'Barlow Condensed', sans-serif;
   color: #D0D6F9;

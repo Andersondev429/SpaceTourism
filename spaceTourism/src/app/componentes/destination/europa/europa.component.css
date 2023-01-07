@@ -39,6 +39,16 @@
   margin-right: 30px;
 }
 
+.button-destination:hover, .menu-mars:hover, .menu-europa:hover, .menu-titan:hover{
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 8px;
+}
+
+.menu-europa-selecionado{
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 8px;
+}
+
 .moon-descripton{
   margin-top: 7%;
   padding-left: 16%;
@@ -82,3 +92,5 @@
   line-height: 32px;
   font-family: 'Bellefair', serif;
 }
+
+

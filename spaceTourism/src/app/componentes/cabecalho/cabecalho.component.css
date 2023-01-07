@@ -48,3 +48,8 @@
   background-repeat:no-repeat;
   color: #FFFFFF;
 }
+
+.menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 35px;
+}

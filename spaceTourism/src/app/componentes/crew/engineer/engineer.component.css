@@ -64,3 +64,15 @@
   margin-right: 4%;
   margin-top: 10%;
 }
+
+.bola-selecionada{
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  margin-right: 4%;
+  margin-top: 10%;
+}
