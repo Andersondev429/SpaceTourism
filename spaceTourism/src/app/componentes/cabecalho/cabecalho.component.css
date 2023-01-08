@@ -68,10 +68,6 @@
     font-size: 23px;
     height: 35px;
   }
-
-  .menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
-    padding-bottom: 68px;
-  }
 }
 
 @media (min-width: 2435px) and (max-width: 3056px){
@@ -89,10 +85,6 @@
   .link-menu{
     font-size: 23px;
     height: 35px;
-  }
-
-  .menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
-    padding-bottom: 68px;
   }
 }
 
@@ -112,10 +104,6 @@
     font-size: 23px;
     height: 35px;
   }
-
-  .menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
-    padding-bottom: 68px;
-  }
 }
 
 @media (min-width: 1743px) and (max-width: 2031px){
@@ -134,20 +122,12 @@
     font-size: 23px;
     height: 35px;
   }
-
-  .menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
-    padding-bottom: 68px;
-  }
 }
 
 @media (min-width: 1356px) and (max-width: 1742px){
   .menu{
     width: 80%;
     max-width: 55%;
-  }
-
-  .menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
-    padding-bottom: 68px;
   }
 }
 
@@ -159,10 +139,6 @@
   .menu{
     width: 80%;
     max-width: 45%;
-  }
-
-  .menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
-    padding-bottom: 68px;
   }
 }
 
@@ -181,10 +157,6 @@
     max-width: 61.8%;
     left: 310px;
   }
-
-  .menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
-    padding-bottom: 68px;
-  }
 }
 
 @media (min-width: 706px) and (max-width: 810px){
@@ -201,10 +173,6 @@
   .menu{
     max-width: 61.8%;
     left: 270px;
-  }
-
-  .menu-home:hover, .menu-destination:hover, .menu-crew:hover, .menu-technology:hover{
-    padding-bottom: 68px;
   }
 }
 

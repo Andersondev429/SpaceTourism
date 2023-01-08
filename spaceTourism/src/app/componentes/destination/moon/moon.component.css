@@ -92,3 +92,90 @@
   line-height: 32px;
   font-family: 'Bellefair', serif;
 }
+
+@media (min-width: 1554px){
+  .menu-destination{
+    padding-left: 0%;
+  }
+
+  .moon-descripton{
+    padding-left: 0%;
+  }
+
+  .menu-description{
+    padding-left: 20%;
+  }
+
+  .title-destination{
+    font-size: 35px;
+  }
+
+  .number-destination{
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .moon-descripton h1{
+    font-size: 130px;
+  }
+
+  .moon-descripton h3{
+    font-size: 28px;
+  }
+
+  .informations-description h4{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+  }
+
+  .informations{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Bellefair', serif;
+  }
+}
+
+@media (min-width: 706px) and (max-width: 1553px){
+  .title-principal{
+    text-align: center;
+  }
+
+  .number-destination{
+    padding-left: 0%;
+  }
+
+  .menu-destination{
+    position: relative;
+    margin-top: 5%;
+  }
+
+  .moon-descripton{
+    padding-left: 0%;
+    justify-content: center;
+  }
+
+  .moon-descripton h1{
+    text-align: center;
+  }
+
+  .moon-descripton h3{
+    width: 100%;
+    text-align: center;
+  }
+
+  .linha{
+    width: 100%;
+  }
+
+  .div-informations{
+    text-align: center;
+    padding-bottom: 5%;
+  }
+}

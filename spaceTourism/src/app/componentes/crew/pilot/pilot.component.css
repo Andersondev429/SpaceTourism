@@ -24,7 +24,7 @@
 
 .commander-descripton h2{
   font-family: 'Bellefair', serif;
-  font-size: 32px;
+  font-size: 16px;
   line-height: 37px;
   color: #FFFFFF;
   mix-blend-mode: normal;
@@ -36,6 +36,8 @@
   font-size: 56px;
   line-height: 64px;
   color: #FFFFFF;
+  min-height: 64px;
+  max-height: 64px;
 }
 
 .commander-descripton h3{
@@ -44,6 +46,8 @@
   font-size: 18px;
   line-height: 32px;
   width: 70%;
+  min-height: 126px;
+  max-height: 126px;
 }
 
 .pilot-image{
@@ -74,5 +78,81 @@
   background: #FFFFFF;
   mix-blend-mode: normal;
   margin-right: 4%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
+
+@media (min-width: 1554px){
+  .title-destination{
+    font-size: 35px;
+  }
+
+  .number-destination{
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .commander-descripton h2{
+    font-size: 26px;
+  }
+
+  .commander-image{
+    max-width: 74%;
+  }
+}
+
+@media (min-width: 1214px) and (max-width: 1399px){
+  .specialist-image-image{
+    max-width: 79%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1213px){
+  .specialist-image-image{
+    max-width: 70%;
+  }
+
+  .commander-descripton{
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 1109px) and (max-width: 1199px){
+  .specialist-image-image{
+    max-width: 89%;
+  }
+
+  .commander-descripton{
+    margin-top: 0%;
+  }
+
+  .commander-descripton h3{
+    width: 74%;
+  }
+}
+
+@media (min-width: 706px) and (max-width: 1110px){
+  .div-crew{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-principal, .commander-descripton h2, .commander-descripton h1, .commander-descripton h3{
+    text-align: center;
+    width: 100%;
+  }
+
+  .commander-descripton{
+    margin-top: 0%;
+  }
+
+  .menu-bolinha{
+    display: flex;
+    justify-content: center;
+  }
+
+  .pilot-image{
+    margin-left: 13%;
+  }
+}
+
